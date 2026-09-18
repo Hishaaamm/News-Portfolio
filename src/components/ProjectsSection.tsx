@@ -8,8 +8,8 @@ const projects = [
     role: "Lead Developer",
     award: "1st Prize ADC 2024",
     category: "IoT",
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=85",
-    imageAlt: "Circuit board representing the Nirbhaya IoT safety device"
+    imageUrl: "/IMG_0332.jpeg",
+    imageAlt: "K Mohammad Hisham and the Nirbhaya project team receiving recognition at ADC 2024"
   },
   {
     title: "Playtone",
@@ -81,7 +81,7 @@ const ProjectsSection = () => {
           <article className="flex h-full flex-col border-b border-[#2E3A59]/25 lg:border-b-0 lg:border-r">
             <figure className="relative h-[280px] overflow-hidden sm:h-[390px]">
               <img src={featured.imageUrl} alt={featured.imageAlt} className="h-full w-full object-cover grayscale transition duration-700 hover:scale-105 hover:grayscale-0" />
-              <figcaption className="absolute bottom-0 left-0 bg-[#2E3A59] px-4 py-2 text-[0.62rem] uppercase tracking-[0.16em] text-white">Front page / ADC 2024</figcaption>
+              <figcaption className="absolute bottom-0 left-0 bg-[#2E3A59] px-4 py-2 text-[0.62rem] uppercase tracking-[0.16em] text-white">Front page / ADC 2024 award</figcaption>
             </figure>
             <div className="flex flex-1 flex-col p-6 sm:p-8 lg:p-10">
               <div className="mb-5 flex items-center justify-between gap-4"><span className="newspaper-kicker">Lead story / 01</span><span className="text-xs uppercase tracking-[0.14em] text-slate-400">{featured.category}</span></div>
