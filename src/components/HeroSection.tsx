@@ -33,7 +33,7 @@ const HeroSection = () => {
               onClick={() => scrollToSection("#projects")}
               className="group bg-[#2E3A59] text-white shadow-[0_20px_40px_rgba(46,58,89,0.2)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#202940]"
             >
-              View My Work <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+              Explore Me <ArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
             </Button>
             <Button
               size="lg"
@@ -47,8 +47,8 @@ const HeroSection = () => {
 
           <div className="mt-8 flex flex-wrap items-center gap-x-4 gap-y-3 text-xs text-slate-500 sm:text-sm">
             <span>Currently open to thoughtful collaborations</span>
-            <span className="hidden h-1 w-1 rounded-full bg-[#2E3A59] sm:block" />
-            <span className="font-medium text-[#2E3A59]">Available worldwide</span>
+            
+            
           </div>
         </div>
 

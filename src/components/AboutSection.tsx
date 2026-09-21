@@ -3,8 +3,8 @@ import { useEffect, useRef } from "react";
 const profileFacts = [
   {
     number: "01",
-    title: "Computer Science Engineer",
-    description: "P.A. College of Engineering, Mangalore"
+    title: "Software Engineer ·",
+    description: "Novigo Solutions Pvt. Ltd."
   },
   {
     number: "02",
@@ -16,11 +16,11 @@ const profileFacts = [
     title: "Technical Lead · GLUG PACE",
     description: "GNU/Linux Users Group at PACE"
   },
-  {
-    number: "04",
-    title: "Based in Mangalore",
-    description: "Karnataka, India"
-  }
+  // {
+  //   number: "04",
+  //   title: "Based in Mangalore",
+  //   description: "Karnataka, India"
+  // }
 ];
 
 const AboutSection = () => {
@@ -65,7 +65,7 @@ const AboutSection = () => {
               Technology with a reason to exist.
             </h2>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
-              A dedicated Computer Science Engineer from Mangalore, Karnataka, with a deep passion for full-stack development, embedded systems, and emerging technologies.
+              A Software Engineer from Mangalore, Karnataka, with a deep passion for full-stack development, embedded systems, and emerging technologies.
             </p>
           </div>
         </div>

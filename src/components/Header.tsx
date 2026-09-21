@@ -64,9 +64,9 @@ const Header = () => {
           <div className="relative flex min-h-[5.25rem] items-center justify-center border-b border-[#2E3A59]/30 py-3">
             <button onClick={() => scrollToSection("#home")} className="group text-center" aria-label="Return to home">
               <span className="block font-serif text-3xl font-bold tracking-[-0.04em] text-[#2E3A59] transition-colors duration-300 group-hover:text-[#202940] sm:text-4xl">The Hisham Times</span>
-              <span className="mt-1 block text-[0.58rem] uppercase tracking-[0.28em] text-slate-500">Technology · Ideas · Practice</span>
+              <span className="mt-1 block text-[0.58rem] uppercase tracking-[0.28em] text-slate-500">Technology · Ideas · Execution</span>
             </button>
-            <span className="absolute left-0 hidden border border-[#2E3A59] px-2 py-1 font-serif text-xs font-bold text-[#2E3A59] sm:block">KH</span>
+            
           </div>
 
           <div className="flex min-h-12 items-center justify-between gap-4 border-b border-[#2E3A59]/25">
